@@ -14,7 +14,8 @@ POST
 ### body信息（根据事件类型定义post信息字段）
 |参数名|类型|说明|
 |---|---|---|
-|app_center|string|需要提交的数据(json格式)|
+|data|string|需要提交的数据(json格式)|
+|source|string|app_center(来源)|
 
 ##### 根据事件类型定义不同的json数据
 页面浏览数据
