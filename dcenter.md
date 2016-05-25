@@ -6,7 +6,7 @@
 |PARAMS|公共参数，json格式，包括如下：<br>uuid：设备唯一标识<br>imei：机器码<br>version：客户端版本<br>version_code：客户端版本代号<br>device：设备型号<br>channel：渠道别名|
 
 ### host地址：
-www.dcenter.com
+http://dcenter.ol.ttigame.cn
 
 ### 请求方式
 POST
