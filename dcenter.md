@@ -42,7 +42,7 @@ POST
 	"app_id":"233",
 	"app_type":"software/game",
 	"reason":"",				// 触发原因
-	"size":"1024",				// 如果event事件时中断类型事件（如pause，error）记录本次下载的大小(kb)
+	"size":"1024",				// 如果event事件时中断类型事件（如pause，error）记录本次下载的大小(byte)
 	"error":"", 				// String 错误类型
 	"error_detail":"",			// String 错误详细信息
 	"time":1463932744160,
@@ -63,6 +63,23 @@ POST
 	"app_type":"software/game",
 	"error":"",
 	"error_detail":"",
+	"time":1463932744160,
+	"net":"wifi/3G/4G"
+}
+```
+
+广告位点击
+```
+{
+	"action_type":"click",
+	"page":"YM-JX",					// 当前页面
+	"arrive_page":"XQ",				// 到达页面
+	"url":"YM-XQ?game_id=102",
+	"option_name":"",				// 广告类型
+	"resouce_id":"233",				// 资源id（如游戏id、礼包id等）
+	"resource_type":"software/game/gift/topic",
+	"p1":"",						// 页面位置
+	"p2":"",						// 资源子位置
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
