@@ -69,14 +69,15 @@ POST
 ```
 
 广告位点击
+
 ```
 {
 	"action_type":"click",
 	"page":"YM-JX",					// 当前页面
-	"arrive_page":"XQ",				// 到达页面
+	"arrive_page":"YM-XQ",				// 到达页面
 	"url":"YM-XQ?game_id=102",
 	"option_name":"",				// 广告类型
-	"resouce_id":"233",				// 资源id（如游戏id、礼包id等）
+	"resource_id":"233",				// 资源id（如游戏id、礼包id等）
 	"resource_type":"software/game/gift/topic",
 	"p1":"",						// 页面位置
 	"p2":"",						// 资源子位置
@@ -139,6 +140,29 @@ POST
 }
 ```
 
+启动客户端时上报客户已安装应用信息
 
+```
+{
+	"action_type":"app_installed",
+	"app_info":[
+		{
+			"package":"com.yitian",		// 包名
+			"version_name":"1.0.0",
+			"version_code":"1000",
+			"used_time":"60"			// 使用时长(s)
+		},
+		{
+			"package":"com.yitian",
+			"version_name":"1.0.0",
+			"version_code":"1000",
+			"used_time":"60"
+		},
+		...
+	],
+	"time":1463932744160,
+	"net":"wifi/3G/4G"
+}
+```
 
 
