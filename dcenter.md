@@ -144,7 +144,7 @@ POST
 
 ```
 {
-	"action_type":"app_installed",
+	"action_type":"app_start",
 	"app_info":[
 		{
 			"package":"com.yitian",		// 包名
