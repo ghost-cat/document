@@ -117,6 +117,7 @@ POST
 	"action_type":"push",
 	"event":"received/clicked",
 	"push_id":"12",
+	"push_source":"getui/xiaomi",		// 推送来源
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
