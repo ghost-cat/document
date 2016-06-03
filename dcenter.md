@@ -36,7 +36,7 @@ POST
 ```
 {
 	"action_type":"download",
-	"event":"request/request_auto/pause/pause_auto/resume/resume_auto/downloaded/delete/error",
+	"event":"request/upgrade/request_auto/pause/pause_auto/continue/continue_auto/downloaded/delete/error",
 	"page":"YM-XQ",
 	"url":"YM-XQ?game_id=102",
 	"app_id":"233",
@@ -131,11 +131,12 @@ POST
 	"from_version":"",				// 版本号
 	"to_version":"",				// 版本号
 	"upgrade_type":"must/suggest",
-	"event":" request/pause/resume/downloaded/installed/download_error/install_error",
+	"event":" request/pause/continue/downloaded/installed/download_error/install_error",
 	"install_mode":"system/auto/root/manual",
 	"url":"",					// 当不是自动静默升级的情况下，该字段填写触发升级操作的页面地址
 	"error":"",
 	"error_detail":"",
+	"source":"",					//升级来源（页面内/推送/后台服务）	
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
