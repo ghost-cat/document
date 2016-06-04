@@ -166,5 +166,15 @@ POST
 	"net":"wifi/3G/4G"
 }
 ```
-
+删除操作
+```
+{	
+	"app_id":"YM_JX",
+	"app_type":"software/game",
+	"action_type":"delete",
+	"page":"",					//页面	
+	"time":1463932744160,
+	"net":"wifi/3G/4G"
+}
+```
 
