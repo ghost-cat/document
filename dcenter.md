@@ -76,7 +76,6 @@ POST
 	"page":"YM-JX",					// 当前页面
 	"arrive_page":"YM-XQ",				// 到达页面
 	"url":"YM-XQ?game_id=102",
-	"option_name":"",				// 广告类型
 	"resource_id":"233",				// 资源id（如游戏id、礼包id等）
 	"resource_type":"software/game/gift/topic",
 	"p1":"",						// 页面位置
