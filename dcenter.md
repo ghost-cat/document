@@ -88,7 +88,7 @@ POST
 {
 	"action_type":"search",
 	"page":"YM-XQ",
-	"url":"YM-XQ?game_id=102",
+	"url":"YM-XQ?title="天天游戏中心"",
 	"word":"呵呵",
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
