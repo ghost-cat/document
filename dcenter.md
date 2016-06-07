@@ -101,7 +101,7 @@ POST
 ```
 {
 	"action_type":"wake",
-	"is_alive":"0/1",		// 是否存活状态，1为是，0为否
+	"is_alive":"true/false",		// 是否存活状态，true为是，false为否
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
