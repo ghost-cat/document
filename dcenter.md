@@ -128,7 +128,7 @@ POST
 	"from_version":"",				// 版本号
 	"to_version":"",				// 版本号
 	"upgrade_type":"must/suggest",
-	"event":" request/pause/continue/downloaded/installed/download_error/install_error",
+	"event":" request/downloaded/installed/download_error/install_error",
 	"install_mode":"system/auto/root/manual",
 	"url":"",					// 当不是自动静默升级的情况下，该字段填写触发升级操作的页面地址
 	"error":"",
