@@ -128,9 +128,8 @@ POST
 	"upgrade_type":"must/suggest",
 	"event":" request/downloaded/install/installed/retry/download_error/install_error",
 	"install_mode":"system/auto/root/manual",
-	"url":"",					// 当不是自动静默升级的情况下，该字段填写触发升级操作的页面地址
 	"error":"",
-	"source":"",					//升级来源（页面内/推送/后台服务）	
+	"from":"",					//升级来源（页面内/推送/后台服务）	
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
