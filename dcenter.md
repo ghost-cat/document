@@ -55,7 +55,7 @@ POST
 ```
 {
 	"action_type":"install",
-	"event":"install/installed/error",
+	"event":"install/installed/error/warn",
 	"install_mode":"system/auto/root/manual",
 	"page":"YM-XQ",
 	"url":"YM-XQ?game_id=102",
