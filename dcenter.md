@@ -126,7 +126,7 @@ POST
 	"action_type":"client",
 	"from_version":"",				// 版本号
 	"to_version":"",				// 版本号
-	"upgrade_type":"must/suggest",
+	"upgrade_type":"force/suggest",
 	"event":" request/downloaded/install/installed/retry/download_error/install_error",
 	"install_mode":"system/auto/root/manual",
 	"error_detail":"",			//错误详情
