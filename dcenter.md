@@ -131,7 +131,7 @@ POST
 	"install_mode":"system/auto/root/manual",
 	"error_detail":"",			//错误详情
 	"error":"", 				// String 错误类型（包体问题/网络/内存不足/MD5不匹配）
-	"from":"",					//升级来源（页面内/推送/后台服务）	
+	"source":"",					//升级来源（页面内/推送/后台服务）	
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
