@@ -73,7 +73,7 @@ POST
 {
 	"action_type":"click",
 	"page":"YM-JX",					// 当前页面
-	"url":"YM-XQ?game_id=102",
+	"url":"YM-XQ?resource_id=102",
 	"resource_id":"233",				// 资源id（如游戏id、礼包id等）
 	"resource_type":"software/game/gift/topic",
 	"p1":"",						// 页面位置
