@@ -36,7 +36,7 @@ POST
 ```
 {
 	"action_type":"download",
-	"event":"request/upgrade/request_auto/pause/pause_auto/continue/downloaded/retry/delete/error",
+	"event":"request/upgrade/request_auto/pause/pause_auto/continue/downloaded/retry/delete/error/onekey_download/onekey_upgrade",//一键下载/一键升级
 	"page":"YM-XQ",
 	"url":"YM-XQ?game_id=102",
 	"app_id":"233",
@@ -55,7 +55,7 @@ POST
 ```
 {
 	"action_type":"install",
-	"event":"install/installed/error/warn",
+	"event":"install/installed/error/warn/onekey_install",//新加一键安装事件
 	"install_mode":"system/auto/root/manual",
 	"page":"YM-XQ",
 	"url":"YM-XQ?game_id=102",
@@ -160,5 +160,8 @@ POST
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
+
+
+
 
 
