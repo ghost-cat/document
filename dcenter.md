@@ -36,7 +36,7 @@ POST
 ```
 {
 	"action_type":"download",
-	"event":"request/upgrade/request_auto/pause/pause_auto/continue/downloaded/retry/delete/error/onekey_download/onekey_upgrade",//一键下载/一键升级
+	"event":"request/upgrade/request_auto/pause/pause_auto/continue/downloaded/retry/delete/error/onekey_request/onekey_retry/onekey_upgrade",//一键下载/一键升级
 	"page":"YM-XQ",
 	"url":"YM-XQ?game_id=102",
 	"app_id":"233",
