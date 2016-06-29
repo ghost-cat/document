@@ -172,6 +172,9 @@ POST
 	"ads_type":"wandoujia";				//广告来源
 	"package_name":"com.lt.appstore"		//包名
 	"page":"tj",					//所在页面名称
+	"position":"11"，				//所在页面位置
+	...
+	...
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 	
