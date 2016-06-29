@@ -162,7 +162,11 @@ POST
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
- 广告位展示
+ ```
+
+广告位展示
+
+```
 {
 	"action_type":"ads_view",
 	"ads_type":"wandoujia";				//广告来源
