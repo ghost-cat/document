@@ -46,7 +46,9 @@ POST
 	"error":"", 				// String 错误类型（packageError/netError/memoryError/MD5Error）
 	"error_detail":""			//错误详情
 	"time":1463932744160,
-	"net":"wifi/3G/4G"
+	"net":"wifi/3G/4G",
+	"package_name":"com.lt.cn",
+	"ad_type":"wandoujia"  			//广告类型
 }
 ```
 
@@ -160,8 +162,16 @@ POST
 	"time":1463932744160,
 	"net":"wifi/3G/4G"
 }
-
-
+ 广告位展示
+{
+	"action_type":"ads_view",
+	"ads_type":"wandoujia";				//广告来源
+	"package_name":"com.lt.appstore"		//包名
+	"page":"tj",					//所在页面名称
+	"time":1463932744160,
+	"net":"wifi/3G/4G"
+	
+}
 
 
 
