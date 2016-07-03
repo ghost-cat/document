@@ -60,7 +60,7 @@ POST
 {
 	"action_type":"install",
 	"event":"install/installed/error/warn/onekey_install",//新加一键安装事件
-	"install_mode":"system/auto/root/manual",
+	"install_mode":"system/auto/root/normal",
 	"page":"YM-XQ",
 	"url":"YM-XQ?game_id=102",
 	"app_id":"233",
